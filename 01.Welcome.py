@@ -12,3 +12,4 @@ def myfunc():
 	return "Welcome <b>Mujahed</b>"
 
 app.run()
+#test
