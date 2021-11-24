@@ -1,6 +1,13 @@
-Make Folder into Repository
+Make Folder into Repository:
     $ git init
     $ git clone https://mujahed85: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@github.com/NubeEra-Samples/LocalWebApp.git .
+    $ git config user.name "mujahed85"
+    $ git config user.email "mujahed.mca@gmail.com"
+
+Regular Commands:
+    $ git add .    
+    $ git commit -m "Commit Message"
+    $ git push -u origin master
 
 Convert Folder to Requirements File
     $  pip freeze > requirements.txt
