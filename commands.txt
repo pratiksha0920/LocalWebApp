@@ -1,0 +1,16 @@
+Make Folder into Repository
+    $ git init
+    $ git clone https://mujahed85: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@github.com/NubeEra-Samples/LocalWebApp.git .
+
+Convert Folder to Requirements File
+    $  pip freeze > requirements.txt
+
+Convert Requirements File to Folder(Env)
+    # Create Environment
+    $ python -m virtualenv envName
+    
+    # Activate Environment
+    $ envName\source\activate.bat
+    
+    # Install All Packages in Environment
+    $  pip install requirements.txt -r
